@@ -48,7 +48,6 @@
 
 .page-versions .version:hover {
   color: var(--color-black);
-
 }
 
 .page-versions .version.is-current {

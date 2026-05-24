@@ -25,6 +25,8 @@ body {
   margin: 0;
   tab-size: 4;
   word-wrap: anywhere; /* aka overflow-wrap; used when hyphens are disabled or aren't sufficient */
+  text-rendering: optimizeLegibility;
+
 }
 
 a {

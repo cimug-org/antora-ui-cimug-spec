@@ -76,7 +76,7 @@
   --doc-font-color: var(--color-jet-50);
   --doc-font-size: inherit;
   --doc-font-size--desktop: calc(17 / var(--rem-base) * 1rem);
-  --doc-title-font-size: calc(32 / var(--rem-base) * 1rem);
+  --doc-title-font-size: calc(38 / var(--rem-base) * 1rem);
   --doc-line-height: 1.45;
   --doc-margin: 0 auto;
   --doc-margin--desktop: 0 2rem;
