@@ -20,6 +20,7 @@ body.-toc aside.toc.sidebar {
 
   main > .content {
     display: flex;
+    justify-content: center;
   }
 
   aside.toc.embedded {

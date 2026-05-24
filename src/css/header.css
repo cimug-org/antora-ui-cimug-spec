@@ -4,10 +4,6 @@
   }
 }
 
-body {
-  padding-top: var(--navbar-height);
-}
-
 .navbar {
   background: var(--navbar-background);
   color: var(--navbar-font-color);
