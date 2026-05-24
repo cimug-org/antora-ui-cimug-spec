@@ -1,11 +1,18 @@
 <article class="doc">
-<div id="doc-header">
-  <div id="title-and-version">
-    <h1 class="page">{{{page.title}}}</h1>
-    {{> page-versions}}
+  <div id="doc-header">
+    <div class="row1">
+      <div class="col1">
+        <h1 class="page">{{{page.title}}}</h1>
+        <div id="subtitle">CIMug Application Profile</div>
+      </div>
+      <div class="col2">
+        <img id="site-logo" src="https://cimug.org/wp-content/uploads/sites/2/2023/12/CIMug_logo_horiz.svg">
+      </div>
+    </div>
+    <div class="row2">
+      {{> page-versions}}
+    </div>
   </div>
-  <img id="site-logo" src="https://cimug.org/wp-content/uploads/sites/2/2023/12/CIMug_logo_horiz.svg">
-</div>
 {{{page.contents}}}
 {{> pagination}}
 </article>
