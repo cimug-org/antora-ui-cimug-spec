@@ -1,8 +1,6 @@
 = PROF-AP-CIM
 :sectnums:
 
-
-
 Application profile of "`The Profiles Vocabulary`" (PROF) for describing CIM profiles.
 
 '''

@@ -45,12 +45,12 @@
   menu.appendChild(title)
   menu.appendChild(list)
 
-  var startOfContent = !document.getElementById('toc') && article.querySelector('h1.page ~ :not(.is-before-toc)')
+  var startOfContent = !document.getElementById('toc') && article.querySelector('#title-header ~ :not(.is-before-toc)')
   if (startOfContent) {
     var embeddedToc = document.createElement('aside')
     embeddedToc.className = 'toc embedded'
     embeddedToc.appendChild(menu.cloneNode(true))
-    startOfContent.parentNode.insertBefore(embeddedToc, startOfContent)
+    startOfContent.parentNode.insertBefore(embeddedToc, startOfContent.nextSibling)
   }
 
   window.addEventListener('load', function () {

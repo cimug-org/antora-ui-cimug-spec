@@ -1,8 +1,11 @@
 <article class="doc">
-{{#with page.title}}
-<h1 class="page">{{{this}}}</h1>
-{{/with}}
-{{> page-versions}}
+<div id="doc-header">
+  <div id="title-and-version">
+    <h1 class="page">{{{page.title}}}</h1>
+    {{> page-versions}}
+  </div>
+  <img id="site-logo" src="https://cimug.org/wp-content/uploads/sites/2/2023/12/CIMug_logo_horiz.svg">
+</div>
 {{{page.contents}}}
 {{> pagination}}
 </article>
