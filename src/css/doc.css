@@ -136,7 +136,7 @@
 
 .doc pre {
   font-size: calc(16 / var(--rem-base) * 1rem);
-  line-height: 1.5;
+  line-height: 1.4;
   margin: 0;
 }
 
@@ -789,6 +789,7 @@
   display: block;
   overflow-x: auto;
   padding: 0.875em;
+  font-size: calc(13 / var(--rem-base) * 1rem);
 }
 
 .doc .listingblock > .content {
@@ -1085,7 +1086,7 @@
   flex-direction: column;
   margin-top: 1.5rem;
   /* align-items: center; */
-  /* margin-bottom: 2rem; */
+  margin-bottom: 1rem;
   /* border-bottom: 4px solid var(--color-smoke-90); */
 }
 
