@@ -440,14 +440,6 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;  /* Acts as a (hopefully) sensible default. */
-}
-
-@media screen and (max-width: 768.5px) {
-  .doc .imageblock,
-  .doc .videoblock {
-    width: unset;
-  }
 }
 
 .doc .imageblock .content {
@@ -481,8 +473,15 @@
 .doc .image > svg {
   display: inline-block;
   height: auto;
-  max-width: 100%;
+  width: 50%;
+  max-width: 70%;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 768.5px) {
+  .doc .imageblock img {
+    max-width: 100%;
+  }
 }
 
 .doc .image:not(.left):not(.right) > img {
