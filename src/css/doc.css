@@ -438,6 +438,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  /* Acts as a (hopefully) sensible default. */
+}
+
+@media screen and (max-width: 768.5px) {
+  .doc .imageblock,
+  .doc .videoblock {
+    width: unset;
+  }
 }
 
 .doc .imageblock .content {
