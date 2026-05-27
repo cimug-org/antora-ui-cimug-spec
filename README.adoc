@@ -1,4 +1,4 @@
-= Antora Default UI
+= Antora UI CIM Users Group Specification
 // Settings:
 :experimental:
 :hide-uri-scheme:
