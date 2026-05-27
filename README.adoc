@@ -10,6 +10,7 @@
 // External URLs:
 :url-antora: https://antora.org
 :url-antora-docs: https://docs.antora.org
+:link-license: https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
 :url-git: https://git-scm.com
 :url-git-dl: {url-git}/downloads
 :url-gulp: http://gulpjs.com
@@ -21,11 +22,10 @@
 
 image:{img-ci-status}[CI Status (GitLab CI), link={url-ci-pipelines}]
 
-This project is an archetype that demonstrates how to produce a UI bundle that can be used by {url-antora}[Antora] to generated a documentation site.
-You can see a preview of the default UI at {url-preview}.
+This project is a fork of the official {url-antora}[Antora Default UI]. In adherence with its license, this project
+will also be licensed under {link-license}.
 
-While the default UI is ready to be used with Antora, the intent is that you'll fork it and customize it for your own needs.
-It's intentionally minimalistic so as to give you a good starting point without requiring too much effort to customize.
+Most of the remainder of this README is a copy of the instructions from the default UI project.
 
 == Code of Conduct
 
@@ -209,7 +209,7 @@ In this case, the bundle will include the source maps, which can be used for deb
 
 == Copyright and License
 
-Copyright (C) 2017-present OpenDevise Inc. and the Antora Project.
+Copyright (C) 2026-present CIM Users Group.
 
 Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
 See link:LICENSE[] to find the full license text.
